@@ -1,12 +1,16 @@
-'use strict';
+'use strict'; // The only code Steve can write in JS
 
+//SUP
+
+require('dotenv').config();
 const superagent = require('superagent');
-const users = require('./users.js');
+const users = require('../../../users.js');
 
 /*
   Resources
   https://developer.github.com/apps/building-oauth-apps/
 */
+
 
 const tokenServerUrl = 'https://github.com/login/oauth/access_token';
 const remoteAPI = 'https://api.github.com/user';

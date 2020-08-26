@@ -6,7 +6,7 @@ const express = require('express');
 
 
 const users = require('./users.js');
-const basicAuth = require('./basic-auth-middleware.js');
+const basicAuth = require('./src/auth/middleware/basic-auth-middleware.js');
 const oauth = require('./oauth-middleware.js');
 
 // Prepare the express app
